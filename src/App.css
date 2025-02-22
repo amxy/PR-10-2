@@ -13,6 +13,50 @@
   }
 }
 
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+}
+
+/* Styling untuk tombol dalam satu baris dengan gap */
+.button-group {
+  display: flex;
+  gap: 10px;
+  margin-top: 20px;
+}
+
+/* Styling tombol */
+.primary-button {
+  padding: 10px 20px;
+  background-color: blue;
+  color: white;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.primary-button:hover {
+  background-color: darkblue;
+}
+
+.secondary-button {
+  padding: 10px 20px;
+  background-color: white;
+  color: blue;
+  border: 2px solid blue;
+  border-radius: 5px;
+  cursor: pointer;
+  transition: background 0.3s ease-in-out;
+}
+
+.secondary-button:hover {
+  background-color: lightblue;
+}
+
 .App-header {
   background-color: #282c34;
   min-height: 100vh;
@@ -22,6 +66,7 @@
   justify-content: center;
   font-size: calc(10px + 2vmin);
   color: white;
+  
 }
 
 .App-link {
